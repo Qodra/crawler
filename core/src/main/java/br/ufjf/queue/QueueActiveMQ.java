@@ -21,9 +21,9 @@ import javax.jms.TextMessage;
 
 public class QueueActiveMQ {
     
-    private static final String AMQ_SERVER = "tcp://200.131.219.214:61616";
-    private static final String AMQ_USERNAME = "admin";
-    private static final String AMQ_PASSWORD = "DAmgNj";
+    private static final String AMQ_SERVER = "tcp://[ip]:61616";
+    private static final String AMQ_USERNAME = "username";
+    private static final String AMQ_PASSWORD = "password";
     private static final String QUEUE_DESTINATION = "qodra.Crawler.RdfStore";
     
     public void send(String rdf){
